@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+.header-light {
+  text-align: center;
+  padding: 20px 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  color: red;
+}

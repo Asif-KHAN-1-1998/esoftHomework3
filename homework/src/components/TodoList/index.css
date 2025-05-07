@@ -1,0 +1,38 @@
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .todo-item {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .todo-item span {
+    flex: 1;
+  }
+  
+  .todo-item select {
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  .todo-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .todo-item button:hover {
+    background-color: #c82333;
+  }
